@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages="br.com.tonsaito")
+@ComponentScan(basePackages="br.com.devops")
 public class WebAppConfiguration extends WebMvcConfigurerAdapter {
 
 	@Override

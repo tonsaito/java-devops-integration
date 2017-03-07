@@ -12,13 +12,13 @@ public class SpringMVCServletConfiguration extends AbstractAnnotationConfigDispa
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
 		System.out.println("getRootConfigClasses complete!");
-		return null;
+		return new Class[] { WebAppConfiguration.class };
 	}
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		System.out.println("getServletConfigClasses complete!");
-		return new Class[] { WebAppConfiguration.class };
+		return null;
 	}
 
 	@Override

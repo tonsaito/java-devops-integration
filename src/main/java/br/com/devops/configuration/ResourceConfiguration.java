@@ -8,7 +8,7 @@ public class ResourceConfiguration extends ResourceConfig{
 	
 	
 	public ResourceConfiguration(){
-		packages("br.com.devops.api");
+		packages("br.com.devops");
 	}
 	
 }
